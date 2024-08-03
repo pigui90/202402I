@@ -94,6 +94,8 @@ public class Ejercicio {
 
         } while (opcion != 5);
 
+        scan.close();
+
     }
 
     public static void elementoMayor(int[] vector) {

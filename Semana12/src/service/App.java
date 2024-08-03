@@ -16,27 +16,23 @@ public class App {
         System.out.println("-----------------------------------------");
 
         // Leer un vector
-        for(int i = 0; i < nombres.length; i++){
+        for (int i = 0; i < nombres.length; i++) {
             System.out.println(i + " " + nombres[i]);
         }
         System.out.println("-----------------------------------------");
-        //Guardar el valor de un vector por medio de un for
-        for(int i = 0; i < nombres.length; i++){
+        // Guardar el valor de un vector por medio de un for
+        for (int i = 0; i < nombres.length; i++) {
             System.out.println("Digame un nombre");
             nombres[i] = scan.next();
         }
         System.out.println("******************************");
 
         // Leer un vector
-        for(int i = 0; i < nombres.length; i++){
+        for (int i = 0; i < nombres.length; i++) {
             System.out.println("El nombre es: " + nombres[i]);
         }
 
-
-
-        
-
-
+        scan.close();
 
     }
 }
